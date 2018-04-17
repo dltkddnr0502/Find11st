@@ -45,6 +45,8 @@ dependencies {
     compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.22.5'
     compile "com.github.thomasnield:rxkotlinfx:$rxkotlinfx"
     compile "io.reactivex.rxjava2:rxkotlin:$rxkotlin"
+
+    compile 'com.jfoenix:jfoenix:8.0.3' // Java 8
 }
 
 compileKotlin {

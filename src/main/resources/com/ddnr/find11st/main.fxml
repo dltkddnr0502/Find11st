@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0"
+            prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.ddnr.find11st.controllers.MainController">
+    <children>
+        <JFXTextField fx:id="searchTextFiled" layoutX="17.0" layoutY="14.0" style="-jfx-focus-color: red;
+-jfx-unfocus-color: orange;"/>
+        <JFXButton fx:id="searchButton" layoutX="168.0" layoutY="14.0" text="Find"
+                   style="-jfx-button-type: RAISED; -fx-background-color: red; -fx-text-fill: white"/>
+    </children>
+</AnchorPane>
